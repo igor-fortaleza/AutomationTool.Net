@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wKAogGg1Wr6u/p6j6DOIQlR+WJb1G5B6c0eR+bHIwRfz5+p+3FwxhO32+Uiolj6Z+Suj44MT7AQ2+YG8M7PWYw==",
+  "success": true,
+  "projectFilePath": "C:\\GitLab\\GitHub\\OpenSource\\AutomationTool.Net\\Examples\\Examples\\GetEventsFacebook\\GetEventsFacebook.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mt13077\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\mt13077\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Util\Library.Useful.csproj" />
+    <ProjectReference Include="..\Library.WebDriver\Library.WebDriver.csproj" />
+    <ProjectReference Include="..\Library.WebRequest\Library.WebRequest.csproj" />
+    <ProjectReference Include="..\Model.Captcha\Model.Captcha.csproj" />
+  </ItemGroup>
+
+</Project>
