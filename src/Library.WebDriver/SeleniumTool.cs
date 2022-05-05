@@ -483,19 +483,59 @@ namespace Library.WebDriver
                     return false;
             }
         }
-        public Boolean AwaitElementContains(By by, string text, TimeSpan time)
+        public Boolean AwaitElementContains(By by, string textValidation, TimeSpan time)
         {
             if (AwaitElement(by, (int)time.TotalSeconds))
             {
                 IList<IWebElement> elements = GetElements(by);
                 foreach (IWebElement element in elements)
                 {
-                    if (element.Text.ToUpper().Contains(text.ToUpper()))                    
+                    if (element.Text.ToUpper().Contains(textValidation.ToUpper()))                    
                         return true;
                     
                 }
             }
             return false;
+        }
+        
+        public IWebElement? AwaitGetElement(By by, int time = 60)
+        {
+            DateTime timeFinal = DateTime.Now.AddSeconds(time);
+            while (timeFinal >= DateTime.Now)
+            {
+                try
+                {
+                    var e = driver.FindElement(by);
+                    return e;
+                }
+                catch (Exception ex)
+                {
+                    Thread.Sleep(500);
+                    continue;
+                }
+            }
+
+            return null;
+        }
+        public IWebElement? AwaitGetElement(By by, int time = 60, string textValidation = "")
+        {
+            DateTime timeFinal = DateTime.Now.AddSeconds(time);
+            while (timeFinal >= DateTime.Now)
+            {
+                try
+                {
+                    var e = driver.FindElement(by);
+                    if (e.Text == textValidation)
+                        return e;
+                }
+                catch (Exception ex)
+                {
+                    Thread.Sleep(500);
+                    continue;
+                }
+            }
+
+            return null;
         }
 
         public Boolean ElementExist(string localXpath)
@@ -712,6 +752,16 @@ namespace Library.WebDriver
             var indexNewTab = windows.Count - 1;
 
             return windows[indexNewTab];
+        }
+        
+        public void SetLocalStorage(string chave, string valor)
+        {
+            ((IJavaScriptExecutor)driver)
+                .ExecuteScript(
+                    $@"localStorage.setItem('{chave}', '{valor}')"
+                );
+            driver.Navigate().Refresh();
+            Print.Message($"{DateTime.Now} - LocalStorage Alterado");
         }
 
         public void DeleteAllCookies()

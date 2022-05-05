@@ -1,7 +1,6 @@
-﻿using System;
-using Model.Generic;
+﻿using Model.Generic;
 
-namespace Library.Util
+namespace Library.Useful
 {
     public class UsefulWeb
     {

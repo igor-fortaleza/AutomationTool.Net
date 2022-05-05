@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Library.Util
+namespace Library.Useful
 {
     public class UsefulPagination
     {

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "wKAogGg1Wr6u/p6j6DOIQlR+WJb1G5B6c0eR+bHIwRfz5+p+3FwxhO32+Uiolj6Z+Suj44MT7AQ2+YG8M7PWYw==",
+  "dgSpecHash": "7qPK/Ytrftr5UpW2LO40FZjVhTJ0bnGcKJCTO4SqWH0huhZT+Q7U503MGdkyzZO8L107BXHPtRx7aAmb82D+kA==",
   "success": true,
-  "projectFilePath": "C:\\GitLab\\GitHub\\OpenSource\\AutomationTool.Net\\Examples\\Examples\\GetEventsFacebook\\GetEventsFacebook.csproj",
+  "projectFilePath": "/Users/igorfortaleza/Git/AutomationTool.Net/Examples/Facebook-GetEvents/GetEventsFacebook/GetEventsFacebook.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mt13077\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\mt13077\\.nuget\\packages\\selenium.webdriver\\4.1.0\\selenium.webdriver.4.1.0.nupkg.sha512"
+    "/Users/igorfortaleza/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/igorfortaleza/.nuget/packages/selenium.webdriver/4.1.0/selenium.webdriver.4.1.0.nupkg.sha512",
+    "/Users/igorfortaleza/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/igorfortaleza/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/igorfortaleza/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.23/microsoft.netcore.app.host.osx-x64.3.1.23.nupkg.sha512"
   ],
   "logs": []
 }
