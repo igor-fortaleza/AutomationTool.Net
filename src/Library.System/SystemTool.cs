@@ -99,11 +99,6 @@ namespace Library.System
             }
         }
 
-        //public static void RegisterLog(bool active)
-        //{
-        //    SystemConfigurate.registerLog = active;
-        //}
-
         public static FileInfo WaitFile(string directory, string partialFileName, string extension = null, int sleepMilliseconds = 150000)
         {
             var dir = new DirectoryInfo(directory);

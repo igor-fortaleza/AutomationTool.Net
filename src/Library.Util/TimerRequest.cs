@@ -30,8 +30,7 @@ namespace Library.Useful
             ++this._RequisicaoAtual;
             if (this._RequisicaoAtual >= this._TotalRequisicaoPermitido)
             {
-                while (this._TempoRequisicaoPermitido >= this.GetDiffIntervalo())
-                    ;
+                while (this._TempoRequisicaoPermitido >= this.GetDiffIntervalo());
             }
             this.VerificaIntervaloRequisicao();
         }
