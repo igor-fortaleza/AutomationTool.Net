@@ -10,11 +10,32 @@ Funções e parâmetros
 
 ```c#
   StartNavigation()
+
+  StartNavigation(List<string> arguments)
+
+  StartNavigation(string url)
+
+  StartNavigation(TypeBrowser typeBrowser, string url)
+
+  StartNavigation(string url, bool isHidden)
+
+  StartNavigation(TypeBrowser typeBrowser , string url, bool isHidden)
+
+	StartNavigation(TypeBrowser typeBrowser , string url, bool isHidden, string downloadPath)
+```
+
+```c#
+  StartNavigation()
+
   StartNavigation(List<string> arguments)
   StartNavigation(string url)
+
   StartNavigation(TypeBrowser typeBrowser, string url)
+
   StartNavigation(string url, bool isHidden)
+
   StartNavigation(TypeBrowser typeBrowser , string url, bool isHidden)
+
 	StartNavigation(TypeBrowser typeBrowser , string url, bool isHidden, string downloadPath)
 ```
 
@@ -36,6 +57,7 @@ Funções e parâmetros
 
 ```c#
   GetElement(string elementLocalXpath)
+
   GetElement(By by)
 ```
 
@@ -46,6 +68,7 @@ Funções e parâmetros
 
 ```c#
   GetElements(string elementLocalXpath)
+
   GetElements (By by)
 ```
 
