@@ -7,9 +7,9 @@ namespace Library.Email
         [Description("Outlook")] Outlook,
         [Description("Gmail")] Gmail,
         [Description("Hotmail")] Hotmail,
-        [Description("UOL")] Icloud,
-        [Description("UOL")] MSN,
-        [Description("UOL")] Yahoo,
+        [Description("Icoud")] Icloud,
+        [Description("MSN")] MSN,
+        [Description("Yahoo")] Yahoo,
         [Description("UOL")] OUL
     }
 }
