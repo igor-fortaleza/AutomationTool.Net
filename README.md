@@ -16,24 +16,33 @@ git clone https://github.com/igor-fortaleza/AutomationTool.Net.git
 
 ### Web
 
-- WebDriver [(Veja mais aqui)](docs/web/webdrive.md)
-- WebRequest
+- [WebDriver](docs/web/webdrive.md)
+- [WebRequest](docs/web/webrequest.md)
 
 ### ReCaptcha
 
-- TwoCaptcha
+- [TwoCaptcha](docs/ReCaptcha/twocaptcha.md)
 
 ### SO
 
-- System
+- [System](docs/SO/system.md)
 
 ### Text
 
-- TextHelp
+- [TextHelp](docs/Text/texthelp.md)
+
+### Excel
+
+- [ExcelSql](docs/Excel/excelsql.md)
+- [ExcelWorkbook](docs/ExcelWorkbook/excelworkbook.md)
+
+### Email
+
+- [Email](docs/Email/email.md)
 
 ### Generic
 
-- Useful
+- [Usefull](docs/Generic/usefull.md)
 
 ## Atualizações
 
