@@ -24,21 +24,6 @@ Funções e parâmetros
 	StartNavigation(TypeBrowser typeBrowser , string url, bool isHidden, string downloadPath)
 ```
 
-```c#
-  StartNavigation()
-
-  StartNavigation(List<string> arguments)
-  StartNavigation(string url)
-
-  StartNavigation(TypeBrowser typeBrowser, string url)
-
-  StartNavigation(string url, bool isHidden)
-
-  StartNavigation(TypeBrowser typeBrowser , string url, bool isHidden)
-
-	StartNavigation(TypeBrowser typeBrowser , string url, bool isHidden, string downloadPath)
-```
-
 - **TypeBrowser:** TypeBrowser é enum que determina qual navegador vai ser executado (IE, Edge, Firefox, Chrome).
 - **url:** Qual url que vai iniciar junto ao navegador.
 - **isHidden:** Se navegador vai ser oculto (true) ou visível (false).
